@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.tauri.dev1",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -51,7 +51,9 @@
       "csp": null
     },
     "updater": {
-      "active": false
+      "active": true,
+      "endpoints": ["http://localhost:3000/tauri-releases/{{target}}/{{current_version}}"],
+      "dialog": true
     },
     "windows": [
       {
