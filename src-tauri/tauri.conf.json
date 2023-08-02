@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev.sibasian2",
+      "identifier": "com.tauri.dev.sibasian3",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
