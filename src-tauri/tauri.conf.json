@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev.sibasian1",
+      "identifier": "com.tauri.dev.sibasian2",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -52,7 +52,7 @@
     },
     "updater": {
       "active": true,
-      "endpoints": ["http://localhost:3000/tauri-releases/{{target}}/{{current_version}}"],
+      "endpoints": ["https://elijahlopez.ca/tauri-releases/google-keep-desktop/{{target}}/{{current_version}}"],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IHJzaWduIGVuY3J5cHRlZCBzZWNyZXQga2V5ClJXUlRZMEl5NW80ZUdENW8wVmpwOFhMTXVZT0dUVHgxdXdkWmxSajFlTUxicUtvSDNHWUFBQkFBQUFBQUFBQUFBQUlBQUFBQVNNcmppU1dsTXZ3cEM4SHoxbVNmcDA5dmpYUGVRd2lxaGk0WnJJKzVGRTJOZnhRRXMyaHlseW4wQ0hDUmtIQnFtSTBRZUdOZmtqdFJoeVg3YUlCTXczMXYvRWdiNmNkdy81OFFxR2EyR01DZFlCYm5LeFpOZzJQcVV2OVNZSXJHMWlnWTB0Wk5YbUE9Cg=="
     },
