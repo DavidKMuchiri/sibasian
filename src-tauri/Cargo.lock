@@ -66,11 +66,19 @@ checksum = "3b13c32d80ecc7ab747b80c3784bce54ee8a7a0cc4fbda9bf4cda2cf6fe90854"
 name = "app"
 version = "0.1.0"
 dependencies = [
+ "portpicker",
  "serde",
  "serde_json",
  "tauri",
  "tauri-build",
+ "tauri-plugin-localhost",
 ]
+
+[[package]]
+name = "ascii"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d92bec98840b8f03a5ff5413de5293bfcd8bf96467cf5452609f939ec6f5de16"
 
 [[package]]
 name = "atk"
@@ -308,6 +316,12 @@ dependencies = [
  "serde",
  "winapi",
 ]
+
+[[package]]
+name = "chunked_transfer"
+version = "1.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cca491388666e04d7248af3f60f0c40cfb0991c72205595d7c396e3510207d1a"
 
 [[package]]
 name = "cocoa"
@@ -2063,6 +2077,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "portpicker"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "be97d76faf1bfab666e1375477b23fde79eccf0276e9b63b92a39d676a889ba9"
+dependencies = [
+ "rand 0.8.5",
+]
+
+[[package]]
 name = "ppv-lite86"
 version = "0.2.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2979,6 +3002,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "tauri-plugin-localhost"
+version = "0.1.0"
+source = "git+https://github.com/tauri-apps/plugins-workspace?branch=v1#cdb77c4b650a81a9c44c4b5db5a46c31954dd7f9"
+dependencies = [
+ "http",
+ "log",
+ "serde",
+ "serde_json",
+ "tauri",
+ "thiserror",
+ "tiny_http",
+]
+
+[[package]]
 name = "tauri-runtime"
 version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3144,6 +3181,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "eb71511c991639bb078fd5bf97757e03914361c48100d52878b8e52b46fb92cd"
 dependencies = [
  "time-core",
+]
+
+[[package]]
+name = "tiny_http"
+version = "0.12.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "389915df6413a2e74fb181895f933386023c71110878cd0825588928e64cdc82"
+dependencies = [
+ "ascii",
+ "chunked_transfer",
+ "httpdate",
+ "log",
 ]
 
 [[package]]

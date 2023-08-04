@@ -48,11 +48,11 @@
       }
     },
     "security": {
-      "csp": null
+      "csp": null  
     },
     "updater": {
       "active": true,
-      "endpoints": ["https://elijahlopez.ca/tauri-releases/google-keep-desktop/{{target}}/{{current_version}}"],
+      "endpoints": ["https://ad33-105-163-2-178.ngrok-free.app/latest/{{target}}/{{current_version}}"],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDZCOEEzOEE3MUIxQ0Q1MzcKUldRMzFSd2JwemlLYThpRTA4OGNWeEJibDVqaFh1TlJ5Rnd1NFA1SzVjTms2SEx6QTB2dzBCQnIK"
     },
